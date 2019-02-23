@@ -1,7 +1,7 @@
 public class Constants {
 	public static final double VELOCITY_VARIATION = 0.0254*2;
 
-	public static final double VELOCITY_MAX = 3;
+	public static final double VELOCITY_MAX = 4;
 	public static final double USER_CONTROL_TURN_RATE = Math.PI; // rad per second
 	public static final double USER_CONTROL_ACCELERATION = 2; // m/s^2
 
@@ -26,7 +26,7 @@ public class Constants {
 	public static double HORIZONTAL_DISTANCE = 5;
 	public static double VERTICAL_DISTANCE = 5;
 	
-	public static double HORIZONTAL_STARTING_POINT = 0.3;
+	public static double HORIZONTAL_STARTING_POINT = 1;
 	public static double VERTICAL_STARTING_POINT   = 3;
 	
 	
@@ -52,7 +52,7 @@ public class Constants {
 	
 	
 	public static double CAMERA_FPS = 30.0;
-	public static int CAMERA_LATENCY = 1; // cycles
+	public static int CAMERA_LATENCY = 3; // cycles
 	public static int CAMERA_PERIOD_MSEC = (int)(1000.0 / CAMERA_FPS);
 	public static double FOV_DEG = 75;
 	public static double FOV_RAD2 = FOV_DEG / 2 * Math.PI / 180;
